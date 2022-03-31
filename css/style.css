@@ -1,0 +1,99 @@
+@keyframes go-back {
+  0% {
+      transform: translateX(100px);
+  }
+  100% {
+      transform: translateX(0);
+  }
+}
+
+*{
+  margin:0;
+  padding: 50;
+  box-sizing: border-box;
+  font-family: 'quicksand';
+  background-color: rgb(238, 198, 90);
+}
+
+img{
+  max-width: 186px;
+  border-radius: 50%;
+  padding: 0px;
+  margin: 0px 5px 10px 0;
+  position: absolute;
+  z-index: 1;
+  animation: go-back 1s;
+}
+
+.name {
+  color: rgb(190, 49, 49);
+  display: inline-block;
+  white-space: nowrap;
+  margin-left: 15rem;
+  margin-top: -21rem;
+  font-weight: bolder;
+}
+
+.occupation{
+  margin-left: 16.5rem;
+  margin-top: -18rem;
+}
+
+.box{
+  background-color: rgb(58, 67, 202);
+  max-width: 100px;
+  height: 300px;
+  transition: width 2s, height 2s, transform 2s;
+  z-index: 0;
+}
+
+.box:hover {
+  transform: rotate(180deg);
+}
+
+.title {
+  margin-left: 18.5rem;
+  margin-bottom: -145px;
+  margin-top: -4.5rem;
+}
+
+.title:hover {
+  color:rgb(190, 49, 49);
+}
+
+.list{
+  margin-left: 15.5rem;
+}
+
+.icon{
+  max-width: 2rem;
+  margin-left: 2rem;
+}
+
+a{
+  margin-left: 1rem;
+  text-decoration: none;
+  color:black;
+}
+
+a:hover{
+  color:rgb(190, 49, 49);
+  font-weight: 600;
+  font-size: 17px;
+}
+
+a:active {
+  color: #3512d3;
+}
+
+.media{
+  margin-top: -25rem;
+  line-height: -15rem;
+}
+
+.media > .github {
+  margin-top: -11.5rem;
+}
+
+
+
